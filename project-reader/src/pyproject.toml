@@ -1,17 +1,14 @@
 [tool.poetry]
-name = "varasto"
+name = "src"
 version = "0.1.0"
 description = ""
-authors = ["Kalle Ilves <kalle.ilves@helsinki.fi>"]
+authors = ["sofiaaair <sofia.airas@hotmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.6.9"
-Flask = "^2.0.2"
+toml = "^0.10.2"
 
 [tool.poetry.dev-dependencies]
-pytest = "^6.2.5"
-coverage = "^6.1.1"
-pylint = "^2.11.1"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
